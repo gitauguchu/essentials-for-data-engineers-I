@@ -18,3 +18,6 @@ print(read_sales_file("sales.txt"))
 
 append_sales_to_file("sales.txt", "\nProduct: Mouse\nSales: 300")
 print(read_sales_file("sales.txt"))
+
+#It is important to close a file once you are done with the operations. This is done using the close() function
+#In this case, we use 'with' which automatically closes the file
